@@ -19,5 +19,5 @@ images.forEach((image) => {
 });
 
 images.forEach((image) => {
-    image.src = image.src.replace("&w=10" , "&w=1000", "w=10" , "w=1000");
+    image.src = image.src.replace("&w=10&" , "&w=1000&", "w=10&" , "w=1000&");
 });
